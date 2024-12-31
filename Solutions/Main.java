@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args){
 
-        ValidateIPv4 iPv4 = new ValidateIPv4();
-        String ip = "01.01.01.01";
-        System.out.println("Is "+ip+" valid IPv4 Address : "+iPv4.validateAddress(ip));
+       RomanToInteger toInteger = new RomanToInteger();
+       System.out.println(toInteger.convert("IVCM"));
 
+       RemoveAdjacentRecursively removeAdjacentRecursively = new RemoveAdjacentRecursively();
+       System.out.println(removeAdjacentRecursively.process("abccbccba"));
 
-        FirstNonRepeatingCharacter nonRepeatingCharacter = new FirstNonRepeatingCharacter();
-      System.out.println(nonRepeatingCharacter.function("aabbccc"));
-
+       LongestKUniqueSubString kUniqueSubString = new LongestKUniqueSubString();
+       System.out.println(kUniqueSubString.findLongest("aabacbebebe",3));
 
 
     }
