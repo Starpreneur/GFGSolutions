@@ -1,18 +1,16 @@
 package Solutions;
 
+import Solutions.BitRotations.RotateBitsPrac;
+
 public class Main {
 
     public static void main(String[] args){
 
-       RomanToInteger toInteger = new RomanToInteger();
-       System.out.println(toInteger.convert("IVCM"));
+         ExtractNumberFromString extractNumberFromString  = new ExtractNumberFromString();
+         System.out.println(extractNumberFromString.process("Another input 9007"));
 
-       RemoveAdjacentRecursively removeAdjacentRecursively = new RemoveAdjacentRecursively();
-       System.out.println(removeAdjacentRecursively.process("abccbccba"));
-
-       LongestKUniqueSubString kUniqueSubString = new LongestKUniqueSubString();
-       System.out.println(kUniqueSubString.findLongest("aabacbebebe",3));
-
+         RunLengthEncoding lengthEncoding = new RunLengthEncoding();
+         System.out.println(lengthEncoding.function("aaaabbbccc"));
 
     }
 }
